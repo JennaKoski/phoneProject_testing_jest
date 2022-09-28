@@ -138,7 +138,7 @@ If the parameter is missing, `null` is also returned.
 
 For example get the owner of "045678912"
 
-```
+```json
 {
   "firstname": "Matt",
   "lastname": "River"

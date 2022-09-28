@@ -20,7 +20,7 @@ module.exports = class PhoneRegister {
       }
     }
     return foundTypes;
-  } // end getTypes
+  } // end of getTypes
 
   getPersonsNumbersByType(firstname, lastname, type) {
     if (firstname && lastname && type) {
