@@ -1,10 +1,9 @@
 pipeline {
     agent any
-    tools {nodejs "node"}
+
     stages {
         stage("Build"){
             steps{
-                sh 'npm run moro'
                 echo 'building app...'
 
             }
